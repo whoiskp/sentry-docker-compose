@@ -41,3 +41,13 @@ And open `http://localhost:9000`
 ## License
 
 [MIT License](http://opensource.org/licenses/MIT)
+
+## INTEGRATIONS Telegram Alert
+[here](https://github.com/butorov/sentry-telegram)
+```pip install sentry-telegram```
+
+### Config alert for telegram
+1. Get __Bot Token__ from __Bot Father__ of __Telegram__
+2. Add this __Bot__ to your channel or group with **Admin Role**.
+3. Call ```https://api.telegram.org/bot<token>/getUpdates``` to get *Channel_ID*
+4. Add config to sentry with your project. Thank  <3
