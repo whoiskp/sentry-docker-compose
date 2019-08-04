@@ -44,7 +44,8 @@ And open `http://localhost:9000`
 
 ## INTEGRATIONS Telegram Alert
 [here](https://github.com/butorov/sentry-telegram)
-```pip install sentry-telegram```
+1. ```pip install sentry-telegram``` in sentry & sentry-worker by ```docker exec -it <sentry> bash```
+2. ```docker-compose restart```. It's done ^^
 
 ### Config alert for telegram
 1. Get __Bot Token__ from __Bot Father__ of __Telegram__
